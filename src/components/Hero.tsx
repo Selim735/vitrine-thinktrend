@@ -74,7 +74,6 @@ export default function Hero() {
               key={i} 
               className="leading-relaxed code-line"
               style={{ 
-                animationDelay: `${i * 0.1}s`,
                 opacity: 0,
                 animation: 'fadeIn 0.5s forwards',
                 animationDelay: `${i * 0.1}s`
