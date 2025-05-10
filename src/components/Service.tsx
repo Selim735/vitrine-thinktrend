@@ -7,67 +7,67 @@ export default function ServicesSection() {
             title: "Développement Web",
             description:
                 "Conception de sites vitrines, plateformes e-commerce et solutions sur-mesure pour répondre à vos besoins spécifiques.",
-                icon: (
-                    <Image
-                      src="/icons/Frame-dev.svg"
-                      alt="Développement Web"
-                      width={40}
-                      height={40}
-                    />
-                  ),
+            icon: (
+                <Image
+                    src="/icons/Frame-dev.svg"
+                    alt="Développement Web"
+                    width={40}
+                    height={40}
+                />
+            ),
         },
 
         {
             title: "Marketing Digital",
             description:
-              "Gestion professionnelle des réseaux sociaux, campagnes publicitaires ciblées, et optimisation SEO pour améliorer votre visibilité sur les moteurs de recherche.",
+                "Gestion professionnelle des réseaux sociaux, campagnes publicitaires ciblées, et optimisation SEO pour améliorer votre visibilité sur les moteurs de recherche.",
             icon: (
-              <Image
-                src="/icons/marketing.svg"
-                alt="Marketing Digital"
-                width={40}
-                height={40}
-              />
+                <Image
+                    src="/icons/marketing.svg"
+                    alt="Marketing Digital"
+                    width={40}
+                    height={40}
+                />
             ),
-          },
+        },
 
         {
             title: "Design Graphique",
             description:
                 "Création d'identités visuelles uniques. Conception de maquettes graphiques modernes. Expériences utilisateurs engageantes et intuitives.",
-                icon: (
-                    <Image
-                      src="/icons/desg.svg"
-                      alt="Design Graphique"
-                      width={40}
-                      height={40}
-                    />
-                  ),
+            icon: (
+                <Image
+                    src="/icons/desg.svg"
+                    alt="Design Graphique"
+                    width={40}
+                    height={40}
+                />
+            ),
         },
         {
             title: "Formations sur Mesure",
             description: "Sessions pratiques pour maîtriser les compétences en marketing digital et développement web.",
             icon: (
                 <Image
-                  src="/icons/formation.svg"
-                  alt="Formations sur Mesure"
-                  width={40}
-                  height={40}
+                    src="/icons/formation.svg"
+                    alt="Formations sur Mesure"
+                    width={40}
+                    height={40}
                 />
-              ),
+            ),
         },
     ]
 
     return (
-        
+
         <section className="py-20 bg-white relative overflow-hidden">
-            
+
             {/* Élément décoratif */}
             <div className="absolute top-0 right-0 w-64 h-64 bg-[#1D1046]/10 rounded-full -translate-x-20 -translate-y-20 blur-3xl"></div>
             <div className="absolute bottom-0 left-0 w-64 h-64 bg-purple-500/10 rounded-full translate-x-10 translate-y-20 blur-3xl"></div>
 
             <div className="container mx-auto px-6">
-                
+
                 {/* En-tête de section */}
                 <div className="text-center mb-16 max-w-3xl mx-auto">
                     <h2 className="text-sm font-semibold text-[#1D1046] uppercase tracking-wider mb-3">

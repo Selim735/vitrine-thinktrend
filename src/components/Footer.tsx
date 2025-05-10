@@ -1,19 +1,19 @@
 import React from 'react';
-import { 
-  Facebook, 
-  Instagram, 
-  Twitter, 
-  Linkedin, 
-  Youtube, 
-  Mail, 
-  Phone, 
-  MapPin, 
-  ArrowRight 
+import {
+    Facebook,
+    Instagram,
+    Twitter,
+    Linkedin,
+    Youtube,
+    Mail,
+    Phone,
+    MapPin,
+    ArrowRight
 } from 'lucide-react';
 
 export default function Footer() {
     const currentYear = new Date().getFullYear();
-    
+
     const socialLinks = [
         { icon: <Facebook size={20} />, url: "#", name: "Facebook" },
         { icon: <Instagram size={20} />, url: "#", name: "Instagram" },
@@ -21,7 +21,7 @@ export default function Footer() {
         { icon: <Linkedin size={20} />, url: "#", name: "LinkedIn" },
         { icon: <Youtube size={20} />, url: "#", name: "YouTube" }
     ];
-    
+
     return (
         <footer className="bg-[#1D1046] text-white">
             {/* Section principale du footer */}
@@ -33,13 +33,13 @@ export default function Footer() {
                         <p className="text-sm text-gray-300 mb-6">
                             Rejoignez-nous dans notre mission de transformer le digital en créant des expériences numériques innovantes et efficaces pour votre entreprise.
                         </p>
-                        
+
                         {/* Réseaux sociaux */}
                         <div className="flex space-x-4 mt-4">
                             {socialLinks.map((social, index) => (
-                                <a 
-                                    key={index} 
-                                    href={social.url} 
+                                <a
+                                    key={index}
+                                    href={social.url}
                                     aria-label={`Visitez notre page ${social.name}`}
                                     className="bg-white/10 p-2 rounded-full hover:bg-white/20 transition-colors duration-300"
                                 >
@@ -121,7 +121,7 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            
+
             {/* Barre de copyright */}
             <div className="border-t border-white/10 py-6">
                 <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">

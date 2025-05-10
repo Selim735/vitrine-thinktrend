@@ -12,6 +12,7 @@ import {
     SheetClose,
 } from '@/components/ui/sheet';
 import Link from "next/link"
+import Image from "next/image";
 
 export default function Navbar() {
     const [open, setOpen] = useState(false)
@@ -39,7 +40,9 @@ export default function Navbar() {
             <div className="bg-white p-2 px-4 md:px-10">
                 <nav className="flex justify-between items-center">
                     {/* Logo */}
-                    <div className="text-xl font-bold text-[#1D1046]">MonLogo</div>
+                    <div className="text-xl font-bold text-[#1D1046]">
+                        <Image src="/images/logo.png" alt="Think Trend Logo" width={150} height={150} />
+                    </div>
 
                     {/* Menu - Desktop */}
                     <ul className="hidden md:flex gap-4 lg:gap-10">
