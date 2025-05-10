@@ -10,21 +10,21 @@ export default function ProcessSection() {
             title: "Consultation",
             description:
                 "Nous commençons par comprendre vos objectifs et vos besoins afin de pouvoir déterminer quel type de service serait le plus adapté.",
-            image: "/placeholder.svg?height=400&width=600",
+            image: "/images/1_fe98d0a647.png?height=400&width=600",
         },
         {
             number: "2",
             title: "Design",
             description:
                 "Nous créerons et partagerons avec vous le premier prototype, afin que nous puissions discuter des retours et l'adapter avant que la version finale ne soit validée !",
-            image: "/placeholder.svg?height=400&width=600",
+            image: "/images/2_aecf4994fe.png?height=400&width=600",
         },
         {
             number: "3",
             title: "Développement et Lancement",
             description:
                 "Nous travaillons en étroite collaboration avec les développeurs, gérons les demandes supplémentaires et présentons le projet final avec un espace de retour d'information.",
-            image: "/placeholder.svg?height=400&width=600",
+            image: "/images/3_30781f6f78.png?height=400&width=600",
         },
     ]
 
