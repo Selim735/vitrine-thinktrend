@@ -59,12 +59,15 @@ export default function ServicesSection() {
     ]
 
     return (
+        
         <section className="py-20 bg-white relative overflow-hidden">
+            
             {/* Élément décoratif */}
             <div className="absolute top-0 right-0 w-64 h-64 bg-[#1D1046]/10 rounded-full -translate-x-20 -translate-y-20 blur-3xl"></div>
             <div className="absolute bottom-0 left-0 w-64 h-64 bg-purple-500/10 rounded-full translate-x-10 translate-y-20 blur-3xl"></div>
 
             <div className="container mx-auto px-6">
+                
                 {/* En-tête de section */}
                 <div className="text-center mb-16 max-w-3xl mx-auto">
                     <h2 className="text-sm font-semibold text-[#1D1046] uppercase tracking-wider mb-3">

@@ -1,5 +1,6 @@
 
 import Hero from "@/components/Hero";
+import ProcessSection from "@/components/ProcessSection";
 import ServiceSection from "@/components/Service";
 import Image from "next/image";
 
@@ -8,6 +9,7 @@ export default function Home() {
     <div>
       <Hero/>
       <ServiceSection/>
+      <ProcessSection/>
     </div>
   );
 }
