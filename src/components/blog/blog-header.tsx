@@ -49,7 +49,7 @@ export default function BlogHeader() {
         </motion.div>
       </div>
 
-      {/* Wave divider */}
+      {/* Wave divider 
       <div className="absolute bottom-0 left-0 w-full">
         <svg viewBox="0 0 1200 120" preserveAspectRatio="none" className="h-16 w-full">
           <path
@@ -67,7 +67,7 @@ export default function BlogHeader() {
             fill="#ffffff"
           ></path>
         </svg>
-      </div>
+      </div>*/}
     </section>
   )
 }
